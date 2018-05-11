@@ -1,0 +1,28 @@
+{
+  "name": "ethereum-dapp-electron",
+  "version": "0.0.1",
+  "description": "The application for managing Ethereum Smart-Contracts as Desktop standalone application",
+  "main": "./app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "test",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+  },
+  "keywords": [
+    "ethereum",
+    "smartcontract",
+    "dapp",
+    "web3"
+  ],
+  "author": "Max Fischuk",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-rebuild": "^1.7.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "ethereumjs-util": "^5.2.0",
+    "web3": "^1.0.0-beta.34"
+  }
+}
